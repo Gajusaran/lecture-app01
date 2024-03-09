@@ -1,0 +1,27 @@
+git add .
+git commit -m ""
+git push
+
+we can  also do this way -> 
+const router = createBrowserRouter([
+{
+ path: "/", element:<Home/>,
+},
+]);
+return(
+<RouterProvider router={router}></RouterProvider>)
+
+// follow acc to documation
+
+we can do like this--->
+<Router>
+        <Routes>
+          /* Define routes */
+          <Route path="/" element={<Home/>}/>
+        </Routes>
+</Router>
+
+// responsive
+// git
+// scrooll
+//react slow build
